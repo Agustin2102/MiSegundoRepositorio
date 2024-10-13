@@ -1,0 +1,110 @@
+La orientación a objetos (OO) es un paradigma de programación que se basa en el concepto de "objetos" como entidades que encapsulan datos y comportamiento. Este enfoque se ha convertido en uno de los más populares y ampliamente utilizados en la actualidad, gracias a su capacidad para modelar sistemas complejos de manera más organizada y eficiente.
+
+## Conceptos Básicos
+
+Los objetos son la unidad fundamental en la programación orientada a objetos. Cada objeto representa una instancia de una clase, que define un conjunto de atributos y métodos.
+
+### Abstracción
+
+La abstracción permite centrarse en las características esenciales de
+un objeto, ocultando los detalles de implementación.
+
+### Encapsulamiento
+
+El encapsulamiento protege los datos internos de un objeto y controla el acceso a ellos a través de métodos.
+
+### Herencia
+
+La herencia permite crear nuevas clases (subclases) que heredan atributos y métodos de clases existentes (superclases).
+
+### Polimorfismo
+
+El polimorfismo permite que un mismo método se comporte de forma diferente en distintas clases.
+
+## Clases y Objetos
+
+Una clase es un plano o plantilla que define las características y el comportamiento de un objeto. Los objetos son instancias concretas de una clase.
+
+### Clase
+
+Define los atributos y métodos comunes a todos los objetos de un tipo.
+
+### Objeto
+
+Una instancia específica de una clase, con valores concretos para sus atributos
+
+## Encapsulamiento
+
+El encapsulamiento es el principio de ocultar los detalles internos de un objeto y proporcionar acceso controlado a través de métodos.
+
+***Protección de Datos:*** Los datos internos de un objeto se protegen del acceso externo directo.
+
+***Control de Acceso:*** Los métodos actúan como intermediarios para acceder y modificar los datos del objeto.
+
+***Mayor Mantenimiento:*** Facilita la modificación del código interno sin afectar el código que utiliza el objeto.
+
+## Herencia
+
+La herencia permite crear nuevas clases (subclases) que heredan las
+características y el comportamiento de clases existentes (superclases).
+
+| Ventajas | Desventajas |
+| --- | --- |
+| Reutilización de código | Acoplamiento entre clases |
+| Mayor organización y estructura | Posible complejidad en sistemas grandes |
+
+## Polimorfismo
+
+El polimorfismo permite que un mismo método se comporte de forma diferente en distintas clases, dependiendo del tipo de
+objeto que lo invoque.
+
+***Redefinición de Métodos:*** Las subclases pueden redefinir los métodos heredados para proporcionar un comportamiento específico.
+
+***Uso Flexible:*** Permite trabajar con objetos de diferentes tipos a través de un mismo interfaz.
+
+## Abstracción
+
+La abstracción se enfoca en las características esenciales de un objeto, ocultando los detalles de implementación y presentando una interfaz simplificada.
+
+***Simplificación:*** Reduce la complejidad al centrarse en lo importante, no en los detalles internos.
+
+***Flexibilidad:*** Permite modificar la implementación sin afectar el
+código que la utiliza.
+
+***Reutilización:*** Las abstracciones pueden ser reutilizadas en diferentes partes del sistema.
+
+## Interfaces
+
+Las interfaces definen contratos o especificaciones que deben cumplir las clases que las implementan. No contienen implementaciones concretas, solo firmas de métodos.
+
+***Definición:*** Se define un contrato con la firma de los métodos que deben implementarse.
+
+***Implementación:*** Las clases que implementan una interfaz deben
+proporcionar implementaciones para todos los métodos.
+
+***Polimorfismo:*** Las interfaces permiten utilizar objetos de diferentes tipos a través de un mismo interfaz.
+
+## Beneficios de la Orientación a Objetos
+
+La programación orientada a objetos ofrece numerosos beneficios, incluyendo un mejor manejo de la complejidad, un mayor mantenimiento y una mayor reutilización de código.
+
+***Modularidad:*** Se divide el sistema en objetos independientes, lo que
+facilita el desarrollo y el mantenimiento.
+
+***Reutilización:*** Los objetos se pueden reutilizar en diferentes partes del sistema o en proyectos futuros.
+
+## Aplicaciones de la Orientación a Objetos
+
+La orientación a objetos se utiliza en una amplia variedad de aplicaciones, desde el desarrollo de software para sistemas
+operativos y aplicaciones web hasta el desarrollo de videojuegos y aplicaciones móviles.
+
+***Sistemas Operativos:*** Los sistemas operativos modernos utilizan la
+orientación a objetos para gestionar recursos y aplicaciones.
+
+***Aplicaciones Web:*** El desarrollo web se basa en la orientación a objetos para crear aplicaciones dinámicas e interactivas.
+
+***Videojuegos:*** Los juegos modernos utilizan la orientación a objetos
+para modelar personajes, escenarios y elementos del juego.
+
+***Aplicaciones Móviles:*** Las aplicaciones móviles se basan en la orientación a objetos para crear interfaces de usuario y
+funcionalidades robustas.
