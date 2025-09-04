@@ -50,5 +50,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Mostrar Mensaje"
+    - name: "Mostrar Mensaje"
       run: echo "Hola esta es una prueba de los actions"
