@@ -47,8 +47,20 @@ on:
 jobs:
 
   build:
+
+    env:
+      platform: 'x64'
+      region: 'us'
+      account: 'your_account'          # replace with your account name
+
     runs-on: ubuntu-latest
 
     steps:
     - name: "Mostrar Mensaje"
       run: echo "Hola esta es una prueba de los actions"
+
+    - name: "Mostrando variables de entorno"
+      run: |
+        echo "Platform: ${{ env.platform }}"
+        echo "Region: ${{ env.region }}"
+        echo "Account: ${{ env.account }}"
